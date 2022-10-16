@@ -42,7 +42,7 @@ This is an eslint config package. It exports several eslint confgs for projects 
 Prettier is not required and has nothing to do with `@devoinc/eslint-config-devo` but we recommend adding Prettier to your dev environment.
 
 - Install [Prettier](https://prettier.io/)
-- Set up Prettier. We recommend using our prettier config shared configuration, named `@devoinc/prettier-config`: # TODO add link
+- Set up Prettier. We recommend using our prettier config shared configuration, named `@devoinc/prettier-config`: https://github.com/DevoInc/prettier-config
 
   ```bash
   $ npm install -D @devoinc/prettier-config
@@ -96,7 +96,6 @@ All the the javascript configs (except the classic configs) extend the `js-react
 If you want to test your config you can use the `eslint . --debug` command in your consumer package to log all debugging info.
 
 For more info about creating a shareable config see [the official docs](https://stackoverflow.com/questions/54246368/how-to-test-an-npm-module-with-peerdependencies).
-
 
 # How to publish a new version
 
