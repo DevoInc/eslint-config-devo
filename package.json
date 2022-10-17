@@ -1,0 +1,44 @@
+{
+  "name": "@devoinc/eslint-config-devo",
+  "version": "1.0.0",
+  "description": "Devo's ESlint configurations",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devoinc/eslint-config-devo.git"
+  },
+  "author": "Devo <desa@devo.com>",
+  "license": "UNLICENSED",
+  "keywords": [
+    "Devo",
+    "ESlint"
+  ],
+  "dependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint-config-prettier": "^8.5.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5",
+    "eslint": ">=8",
+    "eslint-plugin-jest": ">=27",
+    "eslint-plugin-react": ">=7",
+    "eslint-plugin-react-hooks": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "eslint-plugin-jest": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@devoinc/prettier-config": "^0.0.2",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "prettier": "@devoinc/prettier-config"
+}
