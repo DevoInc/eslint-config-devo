@@ -1,7 +1,7 @@
 {
   "name": "@devoinc/eslint-config-devo",
   "version": "1.0.0",
-  "description": "devo eslint configurations",
+  "description": "Devo's ESlint configurations",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
@@ -13,8 +13,8 @@
   "author": "Devo <desa@devo.com>",
   "license": "UNLICENSED",
   "keywords": [
-    "eslint",
-    "devo"
+    "Devo",
+    "ESlint"
   ],
   "dependencies": {
     "@babel/eslint-parser": "^7.18.9",
