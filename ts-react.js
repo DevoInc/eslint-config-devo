@@ -11,4 +11,10 @@ module.exports = {
     ...utils.reactRecommendedExtendsArray,
   ],
   settings: utils.reactSettings,
+  rules: {
+    // Note: you must disable the no-shadow base rule as it can report incorrect errors
+    // https://typescript-eslint.io/rules/no-shadow/#how-to-use
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'warn',
+  },
 };
