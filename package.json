@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/eslint-config-devo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Devo's ESlint configurations",
   "main": "index.js",
   "scripts": {
