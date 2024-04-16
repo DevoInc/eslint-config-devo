@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/eslint-config-devo",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Devo's ESlint configurations",
   "main": "index.js",
   "scripts": {
@@ -40,5 +40,9 @@
     "@devoinc/prettier-config": "^1.0.0",
     "eslint-plugin-prettier": "^4.2.1"
   },
-  "prettier": "@devoinc/prettier-config"
+  "prettier": "@devoinc/prettier-config",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=7"
+  }
 }
